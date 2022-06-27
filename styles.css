@@ -1,0 +1,290 @@
+:root {
+  --main-color: 
+#C1DCF5;
+  --secondary-color: rgb(34, 231, 215);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+#header-wrapper {
+  max-width: 140rem;
+padding: 0 2rem 0 4rem;
+  height: 8vh;
+background: rgba(193, 220, 245, 0.4);
+display: flex;
+justify-content: space-between;
+}
+
+#header-wrapper .logo {
+width: 140rem;
+}
+
+nav {
+  width: 100%;
+  height: 80%;
+}
+
+#nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#nav-list li {
+  list-style-type: none;
+}
+
+#nav-list li a {
+  text-decoration: none;
+  padding: 0 1rem 0 0;
+}
+
+#nav-list li .last-nav-child {
+ display: inline-block;
+ background-color: 
+#0A6D83;
+ padding: 0.22rem 0.8rem;
+ border-radius: 1rem;
+ color: #fff;
+}
+
+#nav-list li a:hover {
+  border-bottom: 2px solid green;
+}
+
+#nav-list li .last-nav-child:hover,
+#nav-list li .last-nav-child:active {
+  background-color: aquamarine;
+}
+
+#hero-section {
+  height: 80vh;
+  width: 100%;
+  /* width: 52rem; */
+  display: flex;
+  background-color: var(--main-color);
+  position: relative;
+}
+
+.hero-wrapper {
+width: 60%;
+margin: 2rem 0rem 0rem 4rem;
+padding-right: 6rem;
+}
+                                                                                                                             
+
+.hero-image img {
+width: 17rem;
+height: 22rem;
+margin-right: 4rem;
+}
+
+
+#hero-section .hero-wrapper .span-items {
+  font-weight: 600;
+}
+
+#hero-section .hero-wrapper .app-link {
+  display: flex;
+}
+
+.app-link {
+  position: relative;
+  top: 1.2rem;
+}
+
+#app-link-child-1 {
+padding-right: 2rem;
+}
+
+#hero-section .hero-wrapper h2 {
+  font-size: 2rem;
+  font-weight: 800;
+margin-bottom: 1rem;
+}
+
+#hero-section .hero-wrapper p {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+#petti-co {
+position: relative;
+top: 0.5rem;
+}
+
+#hero-section .hero-wrapper 
+.btn {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+ border-radius: 1rem;
+ font-size: 0.8rem;
+ margin-bottom: 1rem;
+ margin-right: 0.9rem;
+ color: white;
+ background-color: rgb(48, 163, 157);
+}
+
+.btn-primary {
+  display: inline-block;
+   margin-bottom: 1rem;
+}
+
+
+#mini-section {
+  display: flex;
+  background-color: #55AEC1;
+  gap: 1.4rem;
+  border-radius: 0.7rem;
+  width: 45%;
+  padding: 1rem 1rem 1rem 4rem;
+  position: relative;
+  left: 32%;
+  top: -2.8rem;
+}
+
+#mini-section div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#section-4 {
+  margin-bottom: 1rem;
+}
+
+#section-4 .top-Paragraph {
+  width: 90%;
+  text-align: center;
+}
+
+#section-4 .mini-container {
+width: 27%;
+height: 279.3px;
+padding: 1rem 0.7rem 1.5rem 1rem;
+background-color: #FFFFFF;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15), 0px 0px 5px rgba(0, 0, 0, 0.05);
+border-radius: 0.4rem;
+}
+
+#section-4 .first-child{
+  background-color: #55AEC1;
+  color: #fff;
+}
+
+#section-4 .mini-container h3 {
+  margin-bottom: 0.7rem;
+}
+
+.mini-box {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  
+  column-gap: 2rem;
+  row-gap: 0.8rem;
+}
+
+#section-5 .top-Paragraph {
+  width: 90%;
+  text-align: center;
+}
+
+#section-5 {
+  /* background-color: var(--main-color); */
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+.sec-5-class {
+  background-color: var(--main-color);
+}
+.div-wra {
+  display: flex;
+}
+
+.div-wra .happy-client {
+  margin-left: 2rem;
+}
+
+#section-6 {
+  background-color: #FFFFFF;
+}
+
+#section-5 .text {
+  width: 18rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem 2rem 2rem 0;
+}
+
+#section-5 .text p {
+  width: 16rem;
+  font-size: 0.8rem;
+}
+
+.get-started {
+  margin-left: 1rem;
+}
+
+.operate-text .text h4 {
+margin-bottom: 0.6rem;
+}
+
+section #class {
+  background-color: #fff;
+}
+
+.client {
+  margin-right: 4rem;
+  position: relative;
+  right: 1.8rem;
+  top: 1.89rem;
+}
+
+
+#section-7 {
+  background-color: var(--main-color);
+}
+/***MORDIAL CLASSES***/
+
+.bttn {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+ border-radius: 1rem;
+ font-size: 0.8rem;
+ color: white;
+ background-color: rgb(48, 163, 157);
+}
+
+.m-top1 {
+  margin-top: 1rem;
+}
+
+.m-top3 {
+  margin-top: 3.5rem;
+}
+
+.m-btm1 {
+  margin-bottom: 1rem;
+}
+
+.m-left1 {
+  margin-left: 2rem;
+}
+
+
+p-top1 {
+  padding-top: 1rem;
+}
+
+p-top2 {
+  padding-top: 2rem;
+}
